@@ -1,1 +1,31 @@
-
+{
+  "packages": [
+    {
+      "name": "Squid",
+      "maintainer": "john803",
+      "websiteURL": "https://github.com/john803/Squid",
+      "email": "",
+      "help": {
+        "online": "https://github.com/john803/Squid/wiki"
+      },
+      "platforms": [
+        {
+          "name": "Squid",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/john803/Squid/master/Release/Squid-1.0.0.tar.gz",
+          "archiveFileName": "Squid-1.0.0.tar.gz",
+          "checksum": "SHA-256:E5F17A1F160FDBCDFCDACAEDDD30EF9ED9F743ACE8E7B52EB76D759DBA4D30BA",
+          "size": "31809",
+          "boards": [
+            {"name": "ATmega1284p"},
+            {"name": "ATmega644p"}
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
